@@ -8,13 +8,28 @@
 </head>
 <body>
     <script>
-        const favoutiteFood = [
+        const favouriteFood = [
             "pounded yam and egusi",
             "yam and egg",
             "fried rice, chicken and salad",
             45
         ];
-        console.log(favoutiteFood);
+        favouriteFood.push("beans and plantain");//to add to the existing array
+        let food = favouriteFood.pop();//to remove from the exisitng array
+        console.log(favouriteFood);
+        console.log("deleted beans and plantain, sorry about it");
+
+        let fa = 3;
+
+
+        console.log (favouriteFood[0]);
+        console.log (favouriteFood[fa]);
+        console.log (favouriteFood.length);//to get the length of your array
+        console.log (favouriteFood[favouriteFood.length-1]);//to get the last array        
+
+    
+
+
 
     </script>
 </body>
